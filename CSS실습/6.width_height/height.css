@@ -1,0 +1,20 @@
+.height-default{
+    /* height: auto; 를 안써도 됨*/
+    border: 1px solid teal;
+}
+
+.height-px{
+    height: 300px;
+    border: 2px dashed orange;
+}
+
+html,body{
+    /* height: 100%; 전통적인 방식 */
+    height: 100vh; /*viewport height, 최근에 사용하는 방식 */
+    margin: 0;
+}
+
+.height-pct{
+    border: 2px dashed tomato;
+    height: 30%;
+}
